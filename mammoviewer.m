@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 
-I = imread('mammo_2.jpg');
+I = imread('dane/mammo_2.jpg');
 % I = imread('mammo.jpg');
 wymiary=size(I);
 I_przyciete = I(1:wymiary(1),1:wymiary(2));
